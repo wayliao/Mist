@@ -1,0 +1,118 @@
+.post {
+    column-gap: 10px;
+    display: flex;
+    padding: 30px 20%;
+}
+
+.post form {
+    background: rgb(25, 25, 25);
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    row-gap: 10px;
+    width: 100%;
+}
+
+.post-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-info h1 {
+    align-items: center;
+    column-gap: 10px;
+    display: flex;
+    font-size: 1vw;
+    font-weight: normal;
+}
+
+.post-info img {
+    background: rgb(200, 200, 200);
+    border-radius: 50%;
+    transition: 0.3s;
+    width: 30px;
+}
+
+.post-info h2 {
+    font-size: 1vw;
+    font-weight: normal;
+}
+
+.post-content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.post-content h3 {
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.post-content h4 {
+    font-size: 1vw;
+    font-weight: normal;
+}
+
+.post-content h5 {
+    font-size: 1vw;
+    font-weight: bold;
+}
+
+.like {
+    background: rgb(10, 180, 80);
+    border: none;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    height: 50px;
+    padding: 10px 10px;
+    transition: 0.3s;
+    width: 50px;
+}
+
+.like:hover {
+    background: rgb(40, 200, 110);
+}
+
+.delete {
+    background: rgb(190, 40, 40);
+    border: none;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    height: 50px;
+    padding: 10px 10px;
+    transition: 0.3s;
+    width: 50px;
+}
+
+.delete:hover {
+    background: rgb(200, 60, 60);
+}
+
+@media only screen and (max-width: 1400px) {
+    .post {
+        padding: 30px;
+    }
+
+    .post-info h1 {
+        font-size: 2vw;
+    }
+    
+    .post-info h2 {
+        font-size: 2vw;
+    }
+
+    .post-content h3 {
+        font-size: 4vw;
+    }
+    
+    .post-content h4 {
+        font-size: 2vw;
+    }
+    
+    .post-content h5 {
+        font-size: 2vw;
+    }
+}

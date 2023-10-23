@@ -1,0 +1,47 @@
+form {
+    margin: 30px 38%;
+    padding: 30px;
+    background: rgb(25, 25, 25);
+}
+
+form h1, p {
+    padding: 30px;
+    text-align: center;
+}
+
+form h1 {
+    font-size: 48px;
+}
+
+form input, button {
+    display: block;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+}
+
+form input {
+    margin: 10px auto;
+    padding: 12px;
+    width: 80%;
+}
+
+form button {
+    cursor: pointer;
+    font-weight: bold;
+    margin: 20px auto;
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    background: rgb(45, 150, 195);
+    transition: 0.3s;
+}
+
+form button:hover {
+    background: rgb(55, 180, 230);
+}
+
+@media only screen and (max-width: 1400px) {
+    form {
+        margin: 30px 28%;
+    } 
+}

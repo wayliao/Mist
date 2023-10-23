@@ -1,0 +1,172 @@
+.search {
+    column-gap: 10px;
+    display: flex;
+    padding: 30px 20%;
+}
+
+.search-query {
+    background: rgb(25, 25, 25);
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    row-gap: 10px;
+    width: 25%;
+    height: 25%;
+}
+
+.search-bar {
+    column-gap: 10px;
+    display: flex;
+}
+
+.search-bar input {
+    border: none;
+    border-radius: 5px;
+    padding: 10px 10px;
+    width: 100%;
+}
+
+.search-bar button {
+    background: rgb(45, 150, 195);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 10px;
+    transition: 0.3s;
+}
+
+.search-bar button:hover {
+    background: rgb(55, 180, 230);
+}
+
+.search-options {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.search-options select {
+    border: none;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+
+.post-create {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.post-create a {
+    background: rgb(45, 150, 195);
+    border: none;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 10px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.post-create a:hover {
+    background: rgb(55, 180, 230);
+}
+
+.post-list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 75%;
+}
+
+.post {
+    background: rgb(25, 25, 25);
+    color: rgb(200, 200, 200);
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    transition: 0.3s;
+    padding: 30px;
+    row-gap: 20px;
+}
+
+.post:hover {
+    color: rgb(255, 255, 255);
+}
+
+.post img {
+    background: rgb(200, 200, 200);
+    border-radius: 50%;
+    transition: 0.3s;
+    width: 30px;
+}
+
+.post:hover img {
+    background: rgb(255, 255, 255);
+}
+
+.post-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-info h1 {
+    align-items: center;
+    column-gap: 10px;
+    display: flex;
+    font-size: 1vw;
+    font-weight: normal;
+}
+
+.post-info h2 {
+    font-size: 1vw;
+    font-weight: normal;
+}
+
+.post-content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.post-content h3 {
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.post-content h4 {
+    font-size: 1vw;
+    font-weight: normal;
+}
+
+.post-content h5 {
+    font-size: 1vw;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 1400px) {
+    .search {
+        padding: 30px;
+    }
+
+    .post-info h1 {
+        font-size: 2vw;
+    }
+    
+    .post-info h2 {
+        font-size: 2vw;
+    }
+
+    .post-content h3 {
+        font-size: 4vw;
+    }
+    
+    .post-content h4 {
+        font-size: 2vw;
+    }
+    
+    .post-content h5 {
+        font-size: 2vw;
+    }
+}

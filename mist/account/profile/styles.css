@@ -1,0 +1,29 @@
+section {
+    margin: 30px 38%;
+    padding: 30px;
+    background: rgb(25, 25, 25);
+}
+
+div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+p {
+    padding-top: 20px;
+}
+
+section img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: rgb(225, 225, 225);
+}
+
+@media only screen and (max-width: 1400px) {
+    div {
+        margin: 30px 18%;
+    }
+}

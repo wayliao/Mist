@@ -1,0 +1,131 @@
+.game {
+    column-gap: 10px;
+    display: flex;
+    padding: 30px 20%;
+}
+
+.game form {
+    background: rgb(25, 25, 25);
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    row-gap: 10px;
+    width: 100%;
+}
+
+.game-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 10px;
+}
+
+.game-info h1 {
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+.game-info h2 {
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.game-info h3 {
+    font-size: 1vw;
+    font-weight: normal;
+}
+
+.game-info h4 {
+    font-size: 1vw;
+    font-weight: normal;
+}
+
+.game-info h5 {
+    font-size: 1vw;
+    font-weight: normal;
+}
+
+.icons img {
+    background: rgb(80, 80, 80);
+    border: none;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    height: 30px;
+    padding: 10px 10px;
+    transition: 0.3s;
+    width: 30px;
+}
+
+.request {
+    align-items: center;
+    column-gap: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.reason {
+    border: none;
+    border-radius: 5px;
+    font-size: 1vw;
+    font-weight: normal;
+    padding: 10px 10px;
+    width: 100%;
+}
+
+.accept {
+    background: rgb(10, 180, 80);
+    border: none;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    height: 50px;
+    padding: 10px 10px;
+    transition: 0.3s;
+    width: 100px;
+}
+
+.accept:hover {
+    background: rgb(40, 200, 110);
+}
+
+.deny {
+    background: rgb(190, 40, 40);
+    border: none;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    height: 50px;
+    padding: 10px 10px;
+    transition: 0.3s;
+    width: 100px;
+}
+
+.deny:hover {
+    background: rgb(200, 60, 60);
+}
+
+@media only screen and (max-width: 1400px) {
+    .post {
+        padding: 30px;
+    }
+
+    .post-info h1 {
+        font-size: 2vw;
+    }
+    
+    .post-info h2 {
+        font-size: 2vw;
+    }
+
+    .post-content h3 {
+        font-size: 4vw;
+    }
+    
+    .post-content h4 {
+        font-size: 2vw;
+    }
+    
+    .post-content h5 {
+        font-size: 2vw;
+    }
+}

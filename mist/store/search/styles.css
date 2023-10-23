@@ -1,0 +1,139 @@
+.search {
+    column-gap: 10px;
+    display: flex;
+    padding: 30px 20%;
+}
+
+.search-query {
+    background: rgb(25, 25, 25);
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    row-gap: 10px;
+    width: 25%;
+    height: 25%;
+}
+
+.search-bar {
+    column-gap: 10px;
+    display: flex;
+}
+
+.search-bar input {
+    border: none;
+    border-radius: 5px;
+    padding: 10px 10px;
+    width: 100%;
+}
+
+.search-bar button {
+    background: rgb(45, 150, 195);
+    border: none;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    padding: 10px 10px;
+    transition: 0.3s;
+}
+
+.search-bar button:hover {
+    background: rgb(55, 180, 230);
+}
+
+.search-options {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.search-options select {
+    border: none;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+
+.game-requests {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.game-requests a {
+    background: rgb(45, 150, 195);
+    border: none;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 10px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.game-requests a:hover {
+    background: rgb(55, 180, 230);
+}
+
+.game-list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 75%;
+}
+
+.game {
+    background: rgb(25, 25, 25);
+    display: flex;
+    padding: 30px;
+}
+
+.game:hover .game-info {
+    color: rgb(255, 255, 255);
+}
+
+.game-info {
+    color: rgb(200, 200, 200);
+    text-decoration: none;
+    transition: 0.3s;
+    width: 50%;
+}
+
+.game-info img {
+    width: 20px;
+    height: 20px;
+}
+
+.game-picture {
+    width: 50%;
+}
+
+.game-picture img {
+    width: 100%;
+}
+
+.game-info h1 {
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+
+.game-info h2 {
+    align-items: center;
+    column-gap: 10px;
+    display: flex;
+    font-size: 1vw;
+    font-weight: normal;
+}
+
+@media only screen and (max-width: 1400px) {
+    .search {
+        padding: 30px;
+    }
+
+    .game-info h1 {
+        font-size: 3vw;
+    }
+    
+    .game-info h2 {
+        font-size: 2vw;
+    }
+}
